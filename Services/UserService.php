@@ -68,13 +68,13 @@ class UserService implements Service
         $mail->Port = 465;
 
         $mail->Host = 'smtp.yandex.ru';
-        $mail->Username = 'semin95crpt';
-        $mail->Password = 'EkzzaA75s_';
+        $mail->Username = '';
+        $mail->Password = '';
         $mail->Subject = "Сменя пароля от учетной записи cloud-storage";
 
-        $mail->setFrom('semin95crpt@yandex.ru', 'cloud-storage.local', 0);
+        $mail->setFrom('', 'dev-cloud-storage.local', 0);
         $mail->addAddress($email);
-        $mail->msgHTML("<H1>Ссылка для изменения пароля</H1><p><a href='http://www.cloud-storage.local/reset_password/form?id=" . $_COOKIE['logged'] . "'>http://www.cloud-storage.local/reset_password/form</a></p>");
+        $mail->msgHTML("<H1>Ссылка для изменения пароля</H1><p><a href='http://www.dev-cloud-storage.local/reset_password/form?id=" . $_COOKIE['logged'] . "'>http://www.cloud-storage.local/reset_password/form</a></p>");
 
         $mail->send();
     }
