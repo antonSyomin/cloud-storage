@@ -3,9 +3,6 @@
 
 namespace Core;
 
-/*
-    создаёт http-запрос и опредляет формат контента
-*/
 class Response 
 {
     function __construct(
