@@ -37,7 +37,7 @@ class Router
 
     static private function defaultPage(Response $response)
     {
-        $response->setHeader('Location: http://www.cloud-storage.local/main');
+        $response->setHeader('Location: http://www.dev-cloud-storage.local/main');
 		return $response;
     }
 

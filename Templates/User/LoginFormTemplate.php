@@ -3,7 +3,7 @@
 </header>
 <main>
     <p>
-    <form action="http://www.cloud-storage.local/login" method="POST">
+    <form action="http://www.dev-cloud-storage.local/login" method="POST">
             <input type="text" name="email" placeholder="email">
             <input type="password" name="password" placeholder="password">
             <input type="submit">

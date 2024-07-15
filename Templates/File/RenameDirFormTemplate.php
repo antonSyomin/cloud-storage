@@ -3,7 +3,7 @@
 </header>
 <main>
     <p>
-        <form action="http://www.cloud-storage.local/directories/rename" method="POST">
+        <form action="http://www.dev-cloud-storage.local/directories/rename" method="POST">
             <input type="text" name="title" placeholder="Новое название">
             <input type="hidden" name="id" value="<?= $_GET['id']?>">
             <input type="hidden" name="userId" value="<?= $userId ?>">

@@ -3,7 +3,7 @@
 </header>
 <main>
     <p>
-        <form action="http://www.cloud-storage.local/admin/users/update" method="POST">
+        <form action="http://www.dev-cloud-storage.local/admin/users/update" method="POST">
             <input type="text" name="email" placeholder="email">
             <input type="text" name="age" placeholder="age">
             <input type="hidden" name="id" value="<?= $id ?>">

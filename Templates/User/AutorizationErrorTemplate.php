@@ -3,7 +3,7 @@
 </header>
 <main>
     <p>
-        Чтобы обновить свои данные, необходимо <a href="http://www.cloud-storage.local/login">авторизоваться)
+        Чтобы обновить свои данные, необходимо <a href="http://www.dev-cloud-storage.local/login">авторизоваться)
     </p>
 </main>
 

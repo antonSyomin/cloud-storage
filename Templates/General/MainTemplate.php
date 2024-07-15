@@ -13,9 +13,9 @@ $title = "Главная";
         if ($email) {
             echo $email;
             echo "<br>";
-            echo "<a href='http://www.cloud-storage.local/logout'>Выйти</a>";
+            echo "<a href='http://www.dev-cloud-storage.local/logout'>Выйти</a>";
         } else {
-            echo "<a href='http://www.cloud-storage.local/login'>Войти</a>";
+            echo "<a href='http://www.dev-cloud-storage.local/login'>Войти</a>";
         }
         ?>
     </p>
